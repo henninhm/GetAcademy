@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{color: red;}
+        div{padding: 10px;}
+        div.selected{border: dashed orange 4px;}
+    </style>
+</head>
+<body>
+    <h1>Kakepaking</h1>
+    <div onclick="SpørOmIngredienser()">Vi skal bake en krydderkake</div>
+    <div class="selected">Vi skal bake en marsipankake</div>
+    <div>Vi skal bake en tropisk aroma</div>
+
+    <script>
+        function SpørOmIngredienser(){
+            alert('Har du egg, melk, sukker og mel?');
+            alert('Har du kardemomme, nellik og kanel?');
+        }
+    </script>
+</body>
+</html>

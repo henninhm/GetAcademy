@@ -1,0 +1,9 @@
+div.bluered{
+    background-color:cornflowerblue;
+    color:darkred;
+    padding: 10px;
+    border: solid 6px purple;
+    margin: 5px;
+    text-align: center;
+    font-size: 300%;
+}

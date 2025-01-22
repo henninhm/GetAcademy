@@ -1,0 +1,35 @@
+.body {
+    margin-left: 20px;
+}
+.header {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 1% 0;
+    border: 1px solid gray;
+    user-select: none;
+}
+.green {
+    background-color: green;
+}
+.turquise {
+    background-color: turquoise;
+}
+.maroon {
+    background-color: maroon;
+}
+.salmon {
+    background-color: salmon;
+}
+.black {
+    background-color: black;
+}
+.card {
+    width: 500px;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    margin: 10px;
+}
+.innercard {
+    padding: 10px;
+}
