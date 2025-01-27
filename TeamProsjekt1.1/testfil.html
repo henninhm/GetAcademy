@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<script>
+    let inventoryV = ''
+    function updateInventory(input) {
+        let temp 
+        temp = "test"
+        temp = input
+
+        inventoryV = inventoryV + temp
+    }
+    function showInventory() {
+        document.getElementById('inventory').innerHTML = inventoryV
+    }
+</script>
+
+<body>
+    <button onclick="updateInventory('sverd, ')">Klikk her! (Sverd)</button>
+    <button onclick="updateInventory('skjold, ')">Klikk her! (Skjold)</button>
+    <button onclick="updateInventory('bue, ')">Klikk her! (Bue)</button>
+    <button><img src="img/head3.png" /></button>
+                
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button onclick="showInventory()">Vis inventory</button>
+
+    <div>
+        Inventory:
+    </div>
+    <div id="inventory">
+        <div id="sword"></div>
+        <div id="shield"></div>
+        <div id="bow"></div>
+        <div id="rope"></div>
+        <div id="axe"></div>
+        <div id="__"></div>
+    </div>
+</body>
+</html>

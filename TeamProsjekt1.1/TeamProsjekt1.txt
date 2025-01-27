@@ -1,0 +1,14 @@
+Dere skal ha en variabel som sparer på det dere klikker på - som et "inventory" i et spill.
+Man skal kunne se/skjule hva som er i inventoryen på en måte.
+Bruk det dere har lært til nå og det som kommer av stoff denne uka til å løse oppgaven.
+
+Tegn opp, planlegg og fordel oppgaver på teamet. Pass på at alle får bidratt, og få "Go!" fra kodelærer på plan & fordeling før dere går i gang med kodinga.
+Blir dere tidlig ferdig så bruk resten av tiden (4t) til å slippe kreativiteten løs og "jazze opp" oppgaven
+
+Vi viser fram resultatene via skjermdeling i meet på Fredag.
+Gleder oss til å høre hvordan det har gått!
+
+Hint til hva som brukes for å få dette til:
+ Variabel 
+ Parameter 
+ Return 
