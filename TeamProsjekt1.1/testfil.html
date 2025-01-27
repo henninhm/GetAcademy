@@ -7,25 +7,39 @@
 </head>
 <script>
     let inventoryV = ''
-    function updateInventory(input) {
+    function addToInventory(input, button) {
         let temp 
-        temp = "test"
+        /* temp = "test" ---- Unødvendig */
         temp = input
 
         inventoryV = inventoryV + temp
+
+        /* document.getElementById('button').innerHTML = ____ onclick="removeFrom----" */
     }
+    function removeFromInventory(input, button) {
+        inventoryV = inventoryV.replace(input, "");
+        document.getElementById('testDiv').innerHTML = inventoryV + "Kommer hit"
+    }
+
     function showInventory() {
         document.getElementById('inventory').innerHTML = inventoryV
     }
+
+    /* Mulighet for neste gang. addToInventory bytter koden
+    i knappen man trykket på med REMOVEfromInventory. Og motsatt for removeFromInventory*/
 </script>
 
 <body>
-    <button onclick="updateInventory('sverd, ')">Klikk her! (Sverd)</button>
-    <button onclick="updateInventory('skjold, ')">Klikk her! (Skjold)</button>
-    <button onclick="updateInventory('bue, ')">Klikk her! (Bue)</button>
+
+    <h2>Inventory management</h2>
+
+    <div>Legg til/fjern fra inventory:</div>
+
+    <button id="1" onclick="addToInventory('sverd, ', 1)">Item 1 (Sverd?)</button>
+    <button id="2" onclick="addToInventory('skjold, ', 2)">Item 2 (Skjold?)</button>
+    <button id="3" onclick="addToInventory('bue, ', 3)">Item 3 (Bue?)</button>
     <button><img src="img/head3.png" /></button>
-                
-    <button></button>
+    <button onclick="removeFromInventory('sverd, ')">Fjern Item 1 (Sverd?)</button>
     <button></button>
     <button></button>
     <button></button>
@@ -35,12 +49,15 @@
         Inventory:
     </div>
     <div id="inventory">
-        <div id="sword"></div>
+        <div id="sword">
+            <!-- <img src="img/sverd.png"/> -->
+        </div>
         <div id="shield"></div>
         <div id="bow"></div>
         <div id="rope"></div>
         <div id="axe"></div>
         <div id="__"></div>
+        <div id="testDiv"></div>
     </div>
 </body>
 </html>
