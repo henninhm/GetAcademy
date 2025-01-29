@@ -20,3 +20,5 @@ Hint til hva som brukes for å få dette til:
  Function for hver knapp som swapper mellom add og remove?
 
  Kopiere åpning av inventory fra eksempel1 oppgaven fra moodle/undervisningen?
+
+ += på html

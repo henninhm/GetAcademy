@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduksjonstekst</title>
+
+    <style>
+        .newCSS {
+            background-color: lightblue;
+        }
+    </style>
+
+    <script>
+        function changeCSS() {
+            document.getElementById('hobby').setAttribute("class", 'newCSS')
+        }
+    </script>
+
+    <h3 style="text-align: center;">Hvem er jeg?</h3>
+
+    <div style="text-align: center;">Jeg er Henning.</div>
+
+    <h3 style="text-align: center;">Mine hobbyer:</h3>
+    <div id="hobby" style="text-align: center;">
+        <ul>
+            Spill (PC, konsoll, brett, kort, pussle, osv.)</br>
+            Musikk - Post-punk og de fleste typer rock.</br>
+            Synge</br>
+            Lesing - Bøker, tegneserier, diskusjoner, artikler.</br>
+            Diverse YouTube serier og annet å se på på nett.</br>
+        </ul>
+    </div>
+    
+    <div style="text-align: center;">
+        <button onclick="changeCSS()">Mystery Button!</button>
+    </div>
+
+    <h3 style="text-align: center;">Noen album jeg liker:</h3>
+    <div style="text-align: center;">
+        <img src="Born_to_Run.jpg" />
+        <img src="Soul_Mining.jpg" />
+        <img src="Act_II.jpg" />
+    </div>
+</head>
+<body>
+    
+</body>
+</html>

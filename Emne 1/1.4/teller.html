@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let number = 0
+        function increase(i) {
+            number +=i
+            document.getElementById('num').innerHTML = number
+        }
+
+        function decrease(i) {
+            number -=i
+            document.getElementById('num').innerHTML = number
+        }
+    </script>
+
+    <button onclick="increase(1)">Øk med 1!</button>
+    <button onclick="increase(10)">Øk med 10!</button>
+    <h2 id="num">0</h2>
+    <button onclick="decrease(1)">Reduser med 1!</button>
+    <button onclick="decrease(10)">Reduser med 10!</button>
+
+
+</body>
+
+</html>

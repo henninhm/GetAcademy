@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameter-test</title>
+</head>
+
+<body>
+
+    <script>
+        function newDesign(color, h, text) {
+            /* document.getElementById('blanktArk').style.background = color;
+            document.getElementById('blanktArk').style.height = ${h} px; */ //text;
+            document.getElementById('blanktArk').innerHTML = /*HTML*/ `
+            <div style="background-color:${color}; height:${h}px;">
+                ${text}    
+            </div>
+            `            
+        }
+    </script>
+
+    <button onclick="newDesign('blue', 50, 'ord')">Stil 1</button>
+    <button onclick="newDesign('orange', 250, 'ord')">Stil 2</button>
+    <button onclick="newDesign('gray', 500, 'ord')">Stil 3</button>
+
+    <div id="blanktArk" style="background-color: burlywood; width: 50%; height: 150px ;">
+    </div>
+</body>
+</html>
