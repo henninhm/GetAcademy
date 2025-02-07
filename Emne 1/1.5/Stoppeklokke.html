@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoppeklokke</title>
+</head>
+<body>
+    
+    <h1 id="Teller" style="text-align: center;">0</h1>
+    <div style="text-align: center;">
+        <button onclick="startTimer()">Start</button>
+        <button onclick="pauseTimer()">Pause</button>
+        <button onclick="lap()">Runde</button>
+        <button onclick="resetTimer()">Reset</button>
+        <button onclick="resetAndPause()">Clear</button> </br>
+        <button onclick="lapTimes()">Rundetider</button>
+        <button onclick="clearLapTimes()">Fjern Rundetider</button>
+        <button onclick="fullClear()">Full Clear</button>
+
+    </div>
+
+    <div id="lapTimeBox"></div>
+
+    <script>
+        var i = 0; //counter
+        var timer;
+        var laps = 0; //
+        var lapsS = "";
+
+        function startTimer() {
+            timer = setInterval(increaseByOne, 200)
+        }
+
+        function increaseByOne() {
+            i++;
+            document.getElementById('Teller').innerHTML = i
+        }
+
+        function pauseTimer() {
+            clearInterval(timer)
+        }
+
+        function resetTimer() {
+            i=0;
+            document.getElementById('Teller').innerHTML = i
+        }
+
+        function resetAndPause() {
+            pauseTimer();
+            resetTimer();
+        }
+
+        function lap() {
+            laps++;
+            lapsS += "Round " + laps + ": " + i + "<br>"
+            i = 0;
+        }
+
+        function lapTimes() {
+            document.getElementById('lapTimeBox').innerHTML = lapsS
+        }
+
+        function clearLapTimes() {
+            laps = 0;
+            lapsS = ""
+            document.getElementById('lapTimeBox').innerHTML = lapsS
+        }
+
+        function fullClear() {
+            resetAndPause()
+            clearLapTimes()
+        }
+    </script>
+
+</body>
+</html>

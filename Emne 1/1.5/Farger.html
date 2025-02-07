@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farger</title>
+</head>
+
+<style>
+    .box {
+        width: 200;
+        height: 200;
+        margin: 5px;
+    }
+    .blue {
+        background-color: blue;
+    }
+    .red {
+        background-color: red;
+    }
+    .green {
+        background-color: green;
+    }
+    .chosen {
+        border: 4px solid black;
+    }
+    .white {
+        background-color: white;
+    }
+</style>
+
+<body>
+    <canvas id="blue" class="box blue" onclick="divClick('blue')">test1</canvas>
+    <canvas id="red" class="box red" onclick="divClick('red')">test2</canvas>
+    <canvas id="green" class="box green" onclick="divClick('green')">test3</canvas>
+    <div></div>
+
+    <div style="display: flex; justify-content: center;">
+        <button onclick="setBackground()">Sett Bakgrunnsfarge</button>
+    </div>
+
+    <canvas id="box1" class="box white" onclick="updateCanvas('box1')"></canvas>
+    <canvas id="box2" class="box white" onclick="updateCanvas('box2')"></canvas>
+
+    <!-- <div id="testBox"></div>
+    <div id="tomDiv"></div>   -->
+
+    <script>
+        var color;
+
+        function divClick(div) {
+            if (color != null) {
+                document.getElementById(color).classList.toggle("chosen");
+            }
+            document.getElementById(div).classList.toggle("chosen");
+            color = div;
+            //Flytte border (chosen)
+            //Endre variabel til fargen til valgte div
+            //document.getElementById('testBox').innerHTML = "knapp virker"
+        }
+
+        function setBackground() {
+            document.body.style.background = color;
+            //Sett body background til fargen i variablen
+        }
+
+        function updateCanvas(canvas) {
+            document.getElementById("box1").classList.remove('chosen')
+            document.getElementById("box2").classList.remove('chosen')
+            document.getElementById(canvas).classList.remove('white', 'red', 'blue', 'green')
+            document.getElementById(canvas).classList.add(color, 'chosen');
+        }
+    </script>
+</body>
+</html>

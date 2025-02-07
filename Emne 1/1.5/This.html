@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .tast {
+        width: 50px;
+        height: 50px;
+        border: 3px solid black;
+        text-align: center;
+        margin: 5px;
+    }
+</style>
+<body>
+    <div id="TextBox" style="height: 200px;">
+
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+        <div class="tast" onclick="updateTextBox(this)">
+            A
+        </div>
+        <div class="tast" onclick="updateTextBox(this)">
+            B
+        </div>
+        <div class="tast" onclick="updateTextBox(this)">
+            C
+        </div>
+        <div class="tast" onclick="updateTextBox(this)">
+            D
+        </div>
+        <div class="tast" onclick="updateTextBox(this)">
+            E
+        </div>
+        <div class="tast" onclick="updateTextBox(this)">
+            F
+        </div>
+    </div>
+    <script>
+        function updateTextBox(input) {
+            document.getElementById('TextBox').innerHTML += input.innerHTML
+        }
+    </script>
+</body>
+</html>
