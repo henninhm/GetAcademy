@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Skriv et program som beregner gjennomsnittet av
+tre tall og skriver det ut i en div. 
+
+Lag 3 inputs og generer svaret med en knapp 
+som tar tallene som er skrevet inn. 
+
+Bonus: if setning som sjekker om gjennomsnittet 
+er over eller under forrige gang du sjekket gjennomsnittet.-->
+
+    <button onClick="tilfeldig('num1', 'tall1')">Random Tall 1</button>
+    <button onClick="tilfeldig('num2', 'tall2')">Random Tall 2</button>
+    <button onClick="tilfeldig('num3', 'tall3')">Random Tall 3</button>
+
+    <div id="tall1">0</div>
+    <div id="tall2">0</div>
+    <div id="tall3">0</div>
+
+
+    <button onClick="calculate()">Regn ut gjennomsnitt</button>
+    <div id="output"></div>
+    <script>
+        var num1 = 0
+        var num2 = 0
+        var num3 = 0
+
+        //calculate()
+        
+        function tilfeldig(num, input) {
+            num = Math.floor(Math.random() * 11);
+            document.getElementById(input).innerHTML = num
+            if (input == 'tall1') {
+                num1 = num
+            } else if (input == 'tall2') {
+                num2 = num
+            } else {
+                num3 = num
+            }
+        }
+        
+        function calculate() {
+            total = num1 + num2 + num3
+            average = total / 3
+
+            document.getElementById('output').innerHTML = average
+        }
+    </script>
+
+
+</body>
+
+</html>

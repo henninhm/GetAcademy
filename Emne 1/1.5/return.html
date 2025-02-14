@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return</title>
+</head>
+<body>
+    <div id="mainDiv"> </div>
+    <button onclick="createAndShowHtml('blue', 'She wore Blue Velvet', 20, 'arial')">Test 1</button>
+    <button onclick="createAndShowHtml('red', 'Rød, rød vin. Du er så fin.', 40, 'papyrus')">Test 2</button>
+    <button onclick="createAndShowHtml('green', 'Green, green grass of home', 60, 'times new roman')">Test 3</button>
+
+    <script>
+
+        function createAndShowHtml(color, text, fontSize, font) {
+            document.getElementById('mainDiv').innerHTML = `
+            <div ${createStyle(color, fontSize, font)}>${text} </div>
+            `;
+        }
+        function createStyle(color, fontSize, font) {
+            return `style="${createBackgroundColor(color)} ${createFontSize(fontSize)} ${createFont(font)}"`;
+        }
+        function createBackgroundColor(color) {
+            return `background-color: ${color};`;
+        }
+        function createFontSize(fontSize) {
+            return `font-size: ${fontSize}px;`;
+        }
+        function createFont(font) {
+            return `font-family: ${font};`;
+        }
+
+    </script>
+</body>
+</html>

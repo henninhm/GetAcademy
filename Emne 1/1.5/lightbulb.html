@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pære</title>
+</head>
+
+<style>
+    .bulb {
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+    }
+
+    .off {
+        background-color: gray;
+    }
+
+    /* .on {
+        background-color: yellow;
+    } */
+</style>
+
+<body>
+
+    <div id="pear" class="bulb off" onclick="powerSwitch()"></div>
+
+    <div id="text">
+        Lampa er skrudd av. Eller så har strømmen eller pæra gått
+    </div>
+
+    <script>
+        var powerOn = false;
+        var bulb = document.getElementById('pear')
+        var tekst = document.getElementById('text')
+
+        function powerSwitch() {
+            bulb.classList.toggle("off")
+            if (powerOn) {
+                text.innerHTML = "Lampa er av"
+                powerOn = false
+            } else {
+                text.innerHTML = "Lampa er på"
+                powerOn = true;
+            }  
+        }
+    </script>
+</body>
+
+</html>

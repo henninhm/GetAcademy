@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krokkodillespill</title>
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <h3 id="P">Poeng: 0</h3>
+    <img src="Krokodille.png">
+    <div id="no1"></div>
+    <input id="crocodile" type="text" maxlength="1" oninput="crocoMouth = this.value">
+    <div id="no2"></div>
+    <button onclick="submit()">Submit</button>
+    <button onclick="newNumbers()">Reset</button>
+    <div id="testDiv"></div>
+
+    <script>
+        var points = 0;
+        var num1 = 0;
+        var num2 = 0;
+        var crocoMouth //= document.getElementById('crocodile').value
+        var pointDiv = document.getElementById('P').innerHTML
+
+
+        function newNumbers() {
+            num1 = Math.floor(Math.random() * 11);
+            num2 = Math.floor(Math.random() * 11);
+            document.getElementById('no1').innerHTML = num1
+            document.getElementById('no2').innerHTML = num2
+        }
+        newNumbers()
+
+        function submit() {
+            //document.getElementById('testDiv').innerHTML = num1
+            if (num1 > num2 && crocoMouth == '>') {
+                points++;
+            } else if (num1 = num2 && crocoMouth == '=') {
+                points++;
+            } else if (num1 < num2 && crocoMouth == '<') {
+                points++;
+            } else {
+                points--;
+            }
+            pointDiv = points
+            document.getElementById('testDiv').innerHTML = points
+        }
+
+    </script>
+
+</body>
+
+</html>
