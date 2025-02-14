@@ -15,7 +15,7 @@
 
 
 <body>
-
+    <h2>Hva er størst?</h2>
     <h3 id="P">Poeng: 0</h3>
     <img src="Krokodille.png">
     <div id="no1"></div>
@@ -23,14 +23,15 @@
     <div id="no2"></div>
     <button onclick="submit()">Submit</button>
     <button onclick="newNumbers()">Reset</button>
-    <div id="testDiv"></div>
+    <div id="messageDiv"></div>
 
     <script>
         var points = 0;
         var num1 = 0;
         var num2 = 0;
         var crocoMouth //= document.getElementById('crocodile').value
-        var pointDiv = document.getElementById('P').innerHTML
+        var pointDiv = document.getElementById('P')
+        var message = document.getElementById('messageDiv')
 
 
         function newNumbers() {
@@ -38,22 +39,29 @@
             num2 = Math.floor(Math.random() * 11);
             document.getElementById('no1').innerHTML = num1
             document.getElementById('no2').innerHTML = num2
+            message.innerHTML = ""
         }
         newNumbers()
 
         function submit() {
-            //document.getElementById('testDiv').innerHTML = num1
+            if (!crocoMouth) {
+                message.innerHTML = "Tast in en '>', '<' eller '=' for å svare på sprøsmålet."
+                return
+            }
             if (num1 > num2 && crocoMouth == '>') {
                 points++;
-            } else if (num1 = num2 && crocoMouth == '=') {
+                newNumbers()
+            } else if (num1 == num2 && crocoMouth == '=') {
                 points++;
+                newNumbers()
             } else if (num1 < num2 && crocoMouth == '<') {
                 points++;
+                newNumbers()
             } else {
                 points--;
+                message.innerHTML = "Feil svar! Prøv igjen!"
             }
-            pointDiv = points
-            document.getElementById('testDiv').innerHTML = points
+            pointDiv.innerHTML = "Poeng: " + points
         }
 
     </script>
