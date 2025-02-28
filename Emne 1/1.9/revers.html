@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" oninput="input = this.value">
+    <button onclick="reverseText()">Reverser</button>
+
+    <div id='main'></div>
+
+    <script>
+        var input
+
+        function reverseText() {
+            outputText = ''
+            for (let i = input.length; i >= 0; i--) {
+                outputText = outputText + input.charAt(i)
+            }
+            document.getElementById('main').innerHTML = outputText
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" maxlength="2" oninput="num = this.value">
+    <button onclick="toGangern()">Submit</button>
+
+    <div id="nummerprinter"></div>
+
+    <script>
+        var num;
+        function toGangern() {
+            document.getElementById('nummerprinter').innerHTML = '2 gangern opp til 2 ganger ' + num + '<br>'
+            for (let i = 0; i < num; i++) {
+                document.getElementById('nummerprinter').innerHTML += i*2+2 + '<br>'
+                console.log(num)
+            }
+        }
+
+        //toGangern(10)
+    </script>
+</body>
+</html>

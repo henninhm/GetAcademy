@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .main {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+        }
+    </style>
+
+    <div id="app"></div>
+
+    <script>
+        // Modell
+        ad1 = "_____"
+        ad2 = ad1
+        ad3 = ad1
+        ad4 = ad1
+        ad5 = ad1
+
+        //View
+        updateView()
+        
+        function updateView() {
+            let html = /*HTML*/ `
+            <div class="main">
+                Det var en gang en 
+                <div id="ad1"> ${ad1} </div>
+                <div id="ad2"> ${ad2}</div>
+                som var veldig glad i 
+                <div id="ad3"> ${ad3}</div>
+                natur. Så fikk han i seg 
+                <div id="ad4"> ${ad4}</div>
+                <div id="ad5"> ${ad5}</div>
+                og døde.
+            </div>
+            <br>
+
+            <button onclick="updateAd(1, 'svak')">Svak</button>
+            <button onclick="updateAd(1, 'dumdristig')">Dumdristig</button> <br>
+            <button onclick="updateAd(2, 'eventyrer')">Eventyrer</button>
+            <button onclick="updateAd(2, 'einstøing')">Einstøing</button> <br>
+            <button onclick="updateAd(3, 'vill')">Vill</button>
+            <button onclick="updateAd(3, 'utemmet')">Utemmet</button> <br>
+            <button onclick="updateAd(4, 'giftig')">Giftig</button>
+            <button onclick="updateAd(4, 'rotten')">Rotten</button> <br>
+            <button onclick="updateAd(5, 'sopp')">Sopp</button>
+            <button onclick="updateAd(5, 'kjøtt')">Kjøtt</button>
+            `
+
+            document.getElementById("app").innerHTML = html
+        }
+
+        //Controller
+        function updateAd(adno, input) {
+            if (adno == 1) {
+                ad1 = input
+            } else if (adno == 2) {
+                ad2 = input
+            } else if (adno == 3) {
+                ad3 = input
+            } else if (adno == 4) {
+                ad4 = input
+            } else if (adno == 5) {
+                ad5 = input
+            }
+            updateView()
+        }
+    </script>
+</body>
+
+</html>

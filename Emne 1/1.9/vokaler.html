@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var acount = 0
+        var ecount = 0
+        var icount = 0
+        var ocount = 0
+        var ucount = 0
+        var ycount = 0
+        var æcount = 0
+        var øcount = 0
+        var åcount = 0
+
+        tellVokaler('vslhaødaådla ødwdåjpaihwååi wwmxmas ipoutosåøa') //testet i consoll
+
+        function tellVokaler(input) {
+            for (let i = 0; i < input.length; i++) {
+                if (input.charAt(i) == 'a') {
+                    acount++
+                }
+                if (input.charAt(i) == 'e') {
+                    ecount++
+                }
+                if (input.charAt(i) == 'i') {
+                    icount++
+                }
+                if (input.charAt(i) == 'o') {
+                    ocount++
+                }
+                if (input.charAt(i) == 'u') {
+                    ucount++
+                }
+                if (input.charAt(i) == 'y') {
+                    ycount++
+                }
+                if (input.charAt(i) == 'æ') {
+                    æcount++
+                }
+                if (input.charAt(i) == 'ø') {
+                    øcount++
+                }
+                if (input.charAt(i) == 'å') {
+                    åcount++
+                }
+            }
+        }
+    </script>
+</body>
+</html>
