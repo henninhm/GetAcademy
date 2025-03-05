@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script>
+        //Modell
+        var fourBall = ['Check/Call', 'Bet/Raise', 'Fold', 'All In']
+        var empty = false
+        var html = /*html*/ `
+        <h2>Poker is happening. What do you do?</h2>
+        <button onclick="shakeBall()">Shake ball</button>
+        <br>
+        `
+
+        //View
+        updateView()
+
+        function updateView() {
+            document.getElementById("app").innerHTML = html
+        }
+
+        //Controller
+        function shakeBall() {
+            if(empty) {
+                return
+            }
+            if(!fourBall[0]) {
+                empty = true
+                html += 'Out of options. Stop shaking the ball! (or refresh the page to start again)'
+                updateView()
+                return
+            }
+            index = Math.floor(Math.random() * fourBall.length)
+            html += fourBall[index] + '<br>'
+            fourBall.splice(index, 1)
+            updateView()
+        }
+
+    </script>
+</body>
+</html>

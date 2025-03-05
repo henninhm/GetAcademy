@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <button onclick="findEqualNumbers()">Finn Like Tall</button>
+        <br>
+    </div>
+
+    <script>
+        function findEqualNumbers() {
+            let no1 = 0;
+            let no2 = 1;
+            while (no1 != no2) {
+                no1 = Math.floor(Math.random() * 11);
+                no2 = Math.floor(Math.random() * 11);
+                console.log(no1 + ' & ' + no2)
+            }
+            document.getElementById('app').innerHTML += "Like tall funnet: " + no1 + " og " + no2 +".<br>"
+        }
+    </script>
+</body>
+</html>
