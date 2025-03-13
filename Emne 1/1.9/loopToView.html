@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album array</title>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script>
+        //Modell
+        html = `<button onclick="runLoop()">Run Loop</button>`
+        testArray = ['Greetings from Asbury Park', 'The Wild, the Innocent & the E Street Shuffle',
+        'Born to Run', 'Darkness on the Edge of Town', 'The River', 'Nebraska']
+
+        //View
+        updateView()
+
+        function updateView() {
+            document.getElementById('app').innerHTML = html
+        }
+
+        //Controller
+        function runLoop() {
+            html ='Springsteen albums: <br><br>'
+            for (i = 0; i<testArray.length; i++) {
+                html += testArray[i] + '<br>'
+                updateView()
+            }
+        }
+    </script>
+
+</body>
+</html>

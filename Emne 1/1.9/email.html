@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email-detector</title>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script>
+        //Modell
+        var test1 = 't@es.t'
+        var test2 = 'kla@ank gram.com'
+        var test3 = 'hre sak@al.a'
+        var test4 = 'afsg.gsh@av.s'
+        var test5 = 'ggrrge@affe.affa.af'
+        var test6 = 'testtest@katt.mus'
+        var test7 = 'fugfig@fsogspih'
+        var output = document.getElementById('app')
+        var hasAt
+        var hasSpace
+        var hasFullStop
+        var atAtIndex
+        var fullStopAmount
+
+        function setVariables() {
+            hasAt = false
+            hasSpace = false
+            hasFullStop = false
+            atAtIndex = -1
+            fullStopAmount = 0
+            output.innerHTML = ''
+        }
+
+        //Controller
+        testEmail(test1)
+        function testEmail(email) {
+            setVariables()
+            for (let i = 0; i < email.length; i++) {
+                if (email.charAt(i) == ' ') {
+                        hasSpace = true
+                        output.innerHTML = "Can't have space in emails. "
+                        notAnEmail()
+                        return
+                } if (!hasSpace) {
+                    if (!hasAt && !hasFullStop) {
+                        if (email.charAt(i) == '.') {
+                            hasFullStop = true
+                            output.innerHTML = "Can't have full space before the '@' in emails. "
+                            notAnEmail()
+                            return
+                        }
+                        if (email.charAt(i) == '@') {
+                            hasAt = true
+                            atAtIndex = i
+                        }
+                    } if (hasAt) {
+                        if (email.charAt(i) == '.') {
+                            console.log('Reaches fullstopdetector')
+                            hasFullStop = true
+                            fullStopAmount++
+                        }
+                    }
+                }
+                console.log('at index: '+ i)
+            }
+            if (fullStopAmount == 1) {
+                output.innerHTML = 'Email-address accepted'
+            } else {
+                output.innerHTML = "Too many or too few full stops. "
+                notAnEmail()
+            }
+        }
+
+        function notAnEmail() {
+            output.innerHTML += 'Not an accepted email-address'
+        }
+    </script>
+</body>
+</html>

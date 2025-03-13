@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script>
+        //Modell
+        var html = `<input type="text" oninput="nyVare = this.value"> 
+        <button onclick="addToCart()">Legg til i handlekurv</button> <br> <h3>Handlevogn:<\h3> <br>`
+        var handlevogn = ['Melk', 'Egg', 'Brød', 'Smør']
+        var nyVare = ''
+        var varerVist = 0
+ 
+
+        //View
+        updateView()
+        showCart()
+
+        function updateView() {
+            document.getElementById('app').innerHTML = html
+        }
+
+        function showCart() {
+            for (i = varerVist; i < handlevogn.length; i++) {
+                html += handlevogn[i] + '<br>'
+                varerVist++
+                updateView()
+            }
+        }
+
+        //Controller
+        function addToCart() {
+            handlevogn.push(nyVare)
+            showCart()
+        }
+
+    </script>
+</body>
+</html>
