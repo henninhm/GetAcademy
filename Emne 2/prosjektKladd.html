@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .topList{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+            max-width: 230px;
+            max-height: 250px;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Topp 10 Hunder</h1>
+    <div id="all" class="topList"></div>
+
+    <h1>Topp 10 Små Hunder</h1>
+    <div id='small' class="topList"></div>
+    <h1>Topp 10 Store Hunder</h1>
+    <div class="topList">
+        
+    </div>
+    <h1>Topp 10 Adopterte Hunder</h1>
+    <div class="topList">
+        
+    </div>
+    <h1>Topp 10 Shiba Inu</h1>
+    <div class="topList">
+        
+    </div>
+    <script>
+        function fillTopList(type) {
+            list = document.getElementById(type)
+            for(i=1; i<11; i++) {
+                list.innerHTML += `
+                <div class="dogInList">
+                    NAVN <br>
+                    <img src="dogs/dog${i}.avif">
+                </div>
+                `
+            }
+        }
+        fillTopList('all')
+    </script>
+</body>
+</html>
