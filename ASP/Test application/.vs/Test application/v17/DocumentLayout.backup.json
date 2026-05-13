@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2791891-18E7-4BCE-8E95-EE4D4309BEDD}|Test application\\Test application.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test application\\test application\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2791891-18E7-4BCE-8E95-EE4D4309BEDD}|Test application\\Test application.csproj|solutionrelative:test application\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2791891-18E7-4BCE-8E95-EE4D4309BEDD}|Test application\\Test application.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test application\\test application\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2791891-18E7-4BCE-8E95-EE4D4309BEDD}|Test application\\Test application.csproj|solutionrelative:test application\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2791891-18E7-4BCE-8E95-EE4D4309BEDD}|Test application\\Test application.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test application\\test application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2791891-18E7-4BCE-8E95-EE4D4309BEDD}|Test application\\Test application.csproj|solutionrelative:test application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test application\\Test application\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Test application\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test application\\Test application\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Test application\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T12:38:37.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test application\\Test application\\Program.cs",
+              "RelativeDocumentMoniker": "Test application\\Program.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test application\\Test application\\Program.cs",
+              "RelativeToolTip": "Test application\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T12:35:50.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test application\\Test application\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Test application\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test application\\Test application\\WeatherForecast.cs",
+              "RelativeToolTip": "Test application\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T12:37:49.052Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

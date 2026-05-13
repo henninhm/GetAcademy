@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Test Product page";
+    //ViewData["Product"] = 
+    Product test2 = new Product(1, "Fellowship of the Ring", "Book", 1954);
+    ViewData["TitleB"] = test2.name;
+    ViewData["Medium"] = test2.medium;
+    ViewData["ReleaseYear"] = test2.published_year;
+}
+<h1>@ViewData["Title"]</h1>
+
+<h5>Name: @ViewData["TitleB"]</h5>
+<div>
+	<p>Medium: @ViewData["Medium"]</p>
+	Release Year: @ViewData["ReleaseYear"]
+
+</div>

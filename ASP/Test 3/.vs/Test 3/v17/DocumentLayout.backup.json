@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test 3\\test 3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|solutionrelative:test 3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test 3\\test 3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|solutionrelative:test 3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test 3\\test 3\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|solutionrelative:test 3\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test 3\\test 3\\models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|solutionrelative:test 3\\models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test 3\\test 3\\test 3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|solutionrelative:test 3\\test 3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test 3\\test 3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|solutionrelative:test 3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test 3\\test 3\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|solutionrelative:test 3\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test 3\\test 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|solutionrelative:test 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|c:\\users\\henni\\documents\\programmering\\getacademy\\asp\\test 3\\test 3\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF7CE3E-394B-439B-A4A1-CBDB8AEB65A7}|Test 3\\Test 3.csproj|solutionrelative:test 3\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Test 3\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Models\\User.cs",
+              "RelativeToolTip": "Test 3\\Models\\User.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:59:37.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Models\\Data.cs",
+              "RelativeDocumentMoniker": "Test 3\\Models\\Data.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Models\\Data.cs",
+              "RelativeToolTip": "Test 3\\Models\\Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:21:40.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Test 3.http",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Test 3.http",
+              "RelativeDocumentMoniker": "Test 3\\Test 3.http",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Test 3.http",
+              "RelativeToolTip": "Test 3\\Test 3.http",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-26T13:16:48.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Test 3\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Test 3\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T11:56:56.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Test 3\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Test 3\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:14:11.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "Test 3\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Models\\Products.cs",
+              "RelativeToolTip": "Test 3\\Models\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T11:56:15.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductContext.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Models\\ProductContext.cs",
+              "RelativeDocumentMoniker": "Test 3\\Models\\ProductContext.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Models\\ProductContext.cs",
+              "RelativeToolTip": "Test 3\\Models\\ProductContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:17:01.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Models\\UserContext.cs",
+              "RelativeDocumentMoniker": "Test 3\\Models\\UserContext.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Models\\UserContext.cs",
+              "RelativeToolTip": "Test 3\\Models\\UserContext.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowC0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T11:54:29.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Program.cs",
+              "RelativeDocumentMoniker": "Test 3\\Program.cs",
+              "ToolTip": "C:\\Users\\henni\\Documents\\Programmering\\GetAcademy\\ASP\\Test 3\\Test 3\\Program.cs",
+              "RelativeToolTip": "Test 3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:55:40.188Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

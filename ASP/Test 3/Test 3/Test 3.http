@@ -1,0 +1,34 @@
+@Test_3_HostAddress = https://localhost:7272
+@Test_3_HostAddress = http://localhost:5245
+
+GET {{Test_3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Test_3_HostAddress}}/users
+
+###
+
+
+POST {{Test_3_HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  "user":{
+    "username":"APItest",
+    "email":"API@API.com"
+    "password":"APIpassword"
+  }
+}
+
+###
+
+GET {{Test_3_HostAddress}}/api/products
+
+###
+
+@id=1
+GET {{Test_3_HostAddress}}/api/products/{{id}}
+
+###

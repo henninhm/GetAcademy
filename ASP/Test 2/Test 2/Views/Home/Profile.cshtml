@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Example User's Profile Page";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <ul>
+        <li>Other list-websites</li>
+        <li>Favourite Devoured</li>
+        <li>Favourite Genres</li>
+        <li>Browse Devoured</li>
+        <li>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Devoured">ALL Devoured</a>
+        </li>
+        <li>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ExampleUserListOfReviews">Full list of Reviews</a>
+        </li>
+        <li>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ExUserList">Custom Lists</a>
+        </li>
+    </ul>
+
+</div>

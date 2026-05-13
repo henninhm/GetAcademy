@@ -1,0 +1,36 @@
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\appsettings.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\Test application.staticwebassets.endpoints.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\Test application.exe
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\Test application.deps.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\Test application.runtimeconfig.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\Test application.dll
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\Test application.pdb
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.csproj.AssemblyReference.cache
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.AssemblyInfoInputs.cache
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.AssemblyInfo.cs
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.csproj.CoreCompileInputs.cache
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.sourcelink.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\scopedcss\bundle\Test application.styles.css
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test app.C07D8C8F.Up2Date
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.dll
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\refint\Test application.dll
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.pdb
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\Test application.genruntimeconfig.cache
+C:\Users\henni\Documents\Programmering\GetAcademy\ASP\Test application\Test application\obj\Debug\net8.0\ref\Test application.dll
